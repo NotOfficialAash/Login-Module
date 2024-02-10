@@ -1,5 +1,6 @@
 import os
 
+#Referred W3Schools
 def file_check():
     if os.path.isfile("./acc_details.txt") == True:
         pref_check()
@@ -52,6 +53,7 @@ def custom_input():
     return usr_input
 
 
+#Referred W3Schools
 def clr_scrn():
     if os.name == "nt":
         os.system("cls")
